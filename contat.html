@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logoolp.ico" type="image/x-icon">
+    <title>Olimpia</title>
+    <link rel="stylesheet" href="styles/contat.css"/>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="header-inner-content">
+            <h1 class="logo">Olimpia <span>SkateShopping</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                <!--   <li>Produtos</li> --> 
+                    <li>Contato</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="./images/cart.png"/>
+                <img src="./images/menu.png" class="menu-button"/>
+            </div>
+        </div>
+    </div>
+    <header>
+
+            <div class="content">
+                <div class="slides">
+
+                    <input type="radio" name="slide" id="slide1" checked> 
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+
+                    <div class="slide s1">
+                        <img src="./images/loja1.jpeg" alt="Loja Olimpia">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/loja2.jpeg" alt="Interior loja Olimpia">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/loja3.jpeg" alt="Interior loja Olimpia">
+                    </div>
+
+        </div>
+        <div class="navgation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+        </div>
+    </div>
+    </header>
+
+
+
+
+    <script>
+        let navbar = document.querySelector(".navbar");
+        let menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+</body>
+</html>
