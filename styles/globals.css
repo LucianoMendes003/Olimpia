@@ -104,6 +104,7 @@ header{
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .header-bottom-side-left button{
@@ -116,10 +117,17 @@ header{
     font-weight: 500;
     font-size: 1rem;
     transition: all 0.2s;
+    
 
 }
+.header-bottom-side-left button a {
+text-decoration: none;
+color: white;
+}
+
 .header-bottom-side-left button:hover{
     background-color: rgb(61, 1, 1);
+    
 }
 
 .header-bottom-side-right{
