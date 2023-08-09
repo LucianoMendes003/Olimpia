@@ -326,3 +326,21 @@ main{
     }
 }  
 
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 4rem 30rem;
+}
+
+.logo-footer{
+    text-align: center;
+    
+}
+
+.copyright{
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
