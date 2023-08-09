@@ -200,19 +200,6 @@ input{
     }
 }
 
-@media(max-width: 800px){
-    .footer-content{
-        display: inline;
-        font-size: 0.8rem;
-    }
-    .footer-content>div{
-        padding: 1rem;
-    }
-    .copyright{
-        font-size: 0.8rem;
-    }
-
-}
 main{
     background-color: #ebebeb;
 }
@@ -299,4 +286,43 @@ main{
     max-width: 500px;
     border-radius: 99px;
 }
+
+@media(max-width: 800px){
+    .section-title{
+        font-size: 1rem;
+    }
+
+    .cols-4{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-name, .product-price, .rate{
+        max-height: 1rem;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+
+    .exclusive-container{
+        flex-direction: column-reverse;
+    }
+
+    .exclusive-container img{
+        margin-bottom: 4rem;
+    }
+
+
+}
+
+@media(max-width: 800px){
+    .footer-content{
+        display: inline;
+        font-size: 0.8rem;
+    }
+    .footer-content>div{
+        padding: 1rem;
+    }
+    .copyright{
+        font-size: 0.8rem;
+    }
+}  
 
